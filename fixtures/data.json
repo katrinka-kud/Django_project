@@ -50,5 +50,37 @@
       "created_at": "2024-03-29",
       "updated_at": "2024-03-29"
     }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "name": "1",
+      "description": "Кроссовки"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+      "name": "2",
+      "description": "Ботинки"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 3,
+    "fields": {
+      "name": "3",
+      "description": "Туфли"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 4,
+    "fields": {
+      "name": "4",
+      "description": "Кеды"
+    }
   }
 ]
