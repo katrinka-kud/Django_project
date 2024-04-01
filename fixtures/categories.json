@@ -1,33 +1,33 @@
 [
   {
     "model": "catalog.category",
-    "pk": 1,
+    "pk": 5,
     "fields": {
-      "name": "1",
+      "name": "Кроссовки",
       "description": "Кроссовки"
     }
   },
   {
     "model": "catalog.category",
-    "pk": 2,
+    "pk": 6,
     "fields": {
-      "name": "2",
+      "name": "Ботинки",
       "description": "Ботинки"
     }
   },
   {
     "model": "catalog.category",
-    "pk": 3,
+    "pk": 7,
     "fields": {
-      "name": "3",
+      "name": "Туфли",
       "description": "Туфли"
     }
   },
   {
     "model": "catalog.category",
-    "pk": 4,
+    "pk": 8,
     "fields": {
-      "name": "4",
+      "name": "Кеды",
       "description": "Кеды"
     }
   }

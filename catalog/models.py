@@ -11,8 +11,8 @@ class Category(models.Model):
         return self.name
 
     class Meta:
-        verbose_name = 'Категория'
-        verbose_name_plural = 'Категории'
+        verbose_name = 'Модель'
+        verbose_name_plural = 'Модели'
         ordering = ('name',)
 
 
@@ -26,7 +26,7 @@ class Product(models.Model):
     updated_at = models.DateField(verbose_name='Дата последнего изменения', auto_now=True)
 
     def __str__(self):
-        return f"{self.name} ({self.category})"
+        return {self.name}
 
     class Meta:
         verbose_name = 'Товар'
