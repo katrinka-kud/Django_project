@@ -7,11 +7,11 @@
 
         <div class="my-3 py-3">
             <h2 class="display-5">{{ product }}</h2>
-            <p class="lead">{{ product.description }}</p>
+            <img src=/media/{{ product.image }} width="400" height="410">
+            <p class="lead">{{ product.description |  slice:1000 }}</p>
             <a class="btn btn-outline-secondary" href="#">Скоро будет</a>
         </div>
-        <div class="bg-light shadow-sm mx-auto"
-             style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+
     </div>
 </div>
 {% endfor %}
