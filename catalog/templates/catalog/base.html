@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="description" content="">
-    <title>Интернет-магазин женской обуви</title>
+    <title>{{ title }}</title>
 
 
     <!-- Bootstrap core CSS -->
@@ -45,6 +45,7 @@
         </a>
         <a class="py-2 d-none d-md-inline-block" href="/">Главная</a>
         <a class="py-2 d-none d-md-inline-block" href="#">Меню</a>
+        <a class="py-2 d-none d-md-inline-block" href="{% url 'catalog:categories' %}">Все модели</a>
         <a class="py-2 d-none d-md-inline-block" href="#">Поиск</a>
         <a class="py-2 d-none d-md-inline-block" href="#">Избранное</a>
         <a class="py-2 d-none d-md-inline-block" href="#">Корзина</a>
