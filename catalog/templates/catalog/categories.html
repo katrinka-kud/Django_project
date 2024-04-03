@@ -1,5 +1,5 @@
 {% extends 'catalog/base.html' %}
-
+{% load my_tags %}
 {% block content %}
 {% for product in products %}
 <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
@@ -7,7 +7,7 @@
 
         <div class="my-3 py-3">
             <h2 class="display-5">{{ product }}</h2>
-            <img src=/media/{{ product.image }} width="400" height="410">
+            <img src={{ product.image | mymedia }} width="400" height="410">
             <p class="lead">{{ product.description |  slice:1000 }}</p>
             <a class="btn btn-outline-secondary" href="#">Скоро будет</a>
         </div>
