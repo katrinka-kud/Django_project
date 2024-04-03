@@ -1,7 +1,7 @@
 [
   {
     "model": "catalog.category",
-    "pk": 5,
+    "pk": 1,
     "fields": {
       "name": "Кроссовки",
       "description": "Кроссовки"
@@ -9,7 +9,7 @@
   },
   {
     "model": "catalog.category",
-    "pk": 6,
+    "pk": 2,
     "fields": {
       "name": "Ботинки",
       "description": "Ботинки"
@@ -17,7 +17,7 @@
   },
   {
     "model": "catalog.category",
-    "pk": 7,
+    "pk": 3,
     "fields": {
       "name": "Туфли",
       "description": "Туфли"
@@ -25,7 +25,7 @@
   },
   {
     "model": "catalog.category",
-    "pk": 8,
+    "pk": 4,
     "fields": {
       "name": "Кеды",
       "description": "Кеды"

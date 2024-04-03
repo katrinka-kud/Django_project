@@ -18,3 +18,12 @@ def product(request):
         'description': f'Возможные варианты {Product.objects.all()}',
     }
     return render(request, 'catalog/categories.html', content)
+
+
+def category_products(request, pk):
+    category_item = Category.objects.get(pk=pk)
+    content = {
+        'products': Product.objects.filter(category_id=pk),
+        'title': f'Все доступные к покупке {category_item.name}',
+    }
+    return render(request, 'catalog/products.html', content)
