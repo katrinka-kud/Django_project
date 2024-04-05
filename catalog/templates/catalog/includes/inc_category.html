@@ -6,7 +6,7 @@
             <h2 class="display-5">{{ product }}</h2>
             <img src={{ product.image | mymedia }} width="400" height="410">
             <p class="lead">{{ product.description |  slice:1000 }}</p>
-            <a class="btn btn-outline-secondary" href="{% url 'catalog:category_products' product.pk %}">Скоро будет</a>
+            <a class="btn btn-outline-secondary" href="{% url 'catalog:update_product' product.pk %}">Редактировать</a>
         </div>
 
     </div>
