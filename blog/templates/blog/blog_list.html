@@ -9,6 +9,7 @@
         <div class="my-3 py-3">
             <h2 class="display-5">{{ object.title }}</h2>
             <p class="lead">{{ object.body | slice:100 }}</p>
+            <img src={{ object.image }} width="400" height="410">
             <!--                <a class="btn btn-outline-secondary" href="">Просмотр</a>-->
             <a class="btn btn-outline-secondary"
                href="{% url 'blog:view' object.pk %}"
@@ -21,9 +22,9 @@
                role="button">Удалить</a>
         </div>
         {% if object.is_published %}
-            <a class="btn btn-outline-secondary" href="{% url 'blog:status_published' object.pk %}">Убрать</a>
+        <a class="btn btn-outline-secondary" href="{% url 'blog:status_published' object.pk %}">Убрать</a>
         {% else %}
-            <a class="btn btn-outline-secondary" href="{% url 'blog:status_published' object.pk %}">Добавить</a>
+        <a class="btn btn-outline-secondary" href="{% url 'blog:status_published' object.pk %}">Добавить</a>
         {% endif %}
         <div class="bg-light shadow-sm mx-auto"
              style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">

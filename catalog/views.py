@@ -1,11 +1,11 @@
-from django.shortcuts import render
 from django.urls import reverse_lazy
-from django.views.generic import ListView, CreateView, UpdateView, DeleteView
+from django.views.generic import ListView, CreateView, UpdateView, DeleteView, TemplateView
 
 from catalog.models import Product, Category
 
 
 class CategoryListView(ListView):
+    """Выводит все категории на главной странице"""
     model = Category
     context_object_name = 'categories'
     extra_context = {
@@ -14,42 +14,28 @@ class CategoryListView(ListView):
     template_name = 'catalog/home.html'
 
 
-# def category(request):
-#     content = {
-#         'products': Category.objects.all(),
-#         'title': 'Интернет-магазин женской обуви',
-#     }
-#     return render(request, 'catalog/home.html', content)
-
-
-def product(request):
-    content = {
-        'products': Product.objects.all(),
+class ProductListView(ListView):
+    """Показывает все доступные модели"""
+    model = Product
+    context_object_name = 'products'
+    extra_context = {
         'title': 'Стильно и удобно',
         'description': f'Возможные варианты {Product.objects.all()}',
     }
-    return render(request, 'catalog/categories.html', content)
+    template_name = 'catalog/categories.html'
 
 
-# class CategoryProductView(TemplateView):
-#     template_name = 'catalog/products.html'
-#
-#     def category_products(self, **kwargs):
-#         context_data = super().category_products(**kwargs)
-#         category_pr = Category.objects.get(pk=self.kwargs.get('pk'))
-#         context_data['products'] = Product.objects.filter(category=self.kwargs.get('pk'))
-#         context_data['title'] = f'Все доступные к покупке {category_pr.name}'
-#
-#         return context_data
+class CategoryProductView(TemplateView):
+    """Показывает модели, соответствующей категории"""
+    template_name = 'catalog/products.html'
 
+    def get_context_data(self, **kwargs):
+        context_data = super().get_context_data(**kwargs)
+        category_pr = Category.objects.get(pk=self.kwargs.get('pk'))
+        context_data['object_list'] = Product.objects.filter(category=self.kwargs.get('pk'))
+        context_data['title'] = f'Все доступные к покупке {category_pr.name}'
 
-def category_products(request, pk):
-    category_item = Category.objects.get(pk=pk)
-    content = {
-        'products': Product.objects.filter(category_id=pk),
-        'title': f'Все доступные к покупке {category_item.name}',
-    }
-    return render(request, 'catalog/products.html', content)
+        return context_data
 
 
 class ProductCreateView(CreateView):
