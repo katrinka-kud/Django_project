@@ -8,7 +8,7 @@ from blog.models import Blog
 
 class BlogCreateView(CreateView):
     model = Blog
-    fields = ('title', 'body', 'is_published')
+    fields = ('title', 'body', 'is_published', 'image')
     success_url = reverse_lazy('blog:list')
 
     def form_valid(self, form):
@@ -22,7 +22,7 @@ class BlogCreateView(CreateView):
 
 class BlogUpdateView(UpdateView):
     model = Blog
-    fields = ('title', 'body', 'is_published')
+    fields = ('title', 'body', 'is_published', 'image')
 
     # success_url = reverse_lazy('blog:list')
 

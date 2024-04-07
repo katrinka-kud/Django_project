@@ -1,7 +1,7 @@
 {% extends 'catalog/base.html' %}
 {% load my_tags %}
 {% block content %}
-{% for product in products %}
+{% for object in object_list %}
 {% include 'catalog/includes/inc_category.html'%}
 {% endfor %}
 {% endblock %}
