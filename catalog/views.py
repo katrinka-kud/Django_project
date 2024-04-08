@@ -7,7 +7,6 @@ from catalog.models import Product, Category
 class CategoryListView(ListView):
     """Выводит все категории на главной странице"""
     model = Category
-    context_object_name = 'categories'
     extra_context = {
         'title': 'Интернет-магазин женской обуви',
     }
@@ -17,10 +16,8 @@ class CategoryListView(ListView):
 class ProductListView(ListView):
     """Показывает все доступные модели"""
     model = Product
-    context_object_name = 'products'
     extra_context = {
         'title': 'Стильно и удобно',
-        'description': f'Возможные варианты {Product.objects.all()}',
     }
     template_name = 'catalog/categories.html'
 
