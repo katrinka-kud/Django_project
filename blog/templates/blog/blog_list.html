@@ -1,5 +1,6 @@
 {% extends 'catalog/base.html' %}
 {% block content %}
+{% load my_tags %}
 <div class="col-12 mb-5">
     <a class="btn btn-outline-secondary" href="{% url 'blog:create' %}">Добавить материал</a>
 </div>
@@ -8,8 +9,8 @@
     <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
         <div class="my-3 py-3">
             <h2 class="display-5">{{ object.title }}</h2>
+            <img src={{ object.image | mymedia }} width="300" height="400">
             <p class="lead">{{ object.body | slice:100 }}</p>
-            <img src={{ object.image }} width="400" height="410">
             <!--                <a class="btn btn-outline-secondary" href="">Просмотр</a>-->
             <a class="btn btn-outline-secondary"
                href="{% url 'blog:view' object.pk %}"
@@ -26,10 +27,8 @@
         {% else %}
         <a class="btn btn-outline-secondary" href="{% url 'blog:status_published' object.pk %}">Добавить</a>
         {% endif %}
-        <div class="bg-light shadow-sm mx-auto"
-             style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-        </div>
     </div>
+</div>
 </div>
 </div>
 </div>
