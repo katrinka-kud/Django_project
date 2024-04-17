@@ -11,8 +11,6 @@
             <p class="lead">И еще более остроумный подзаголовок.</p>
             <img src={{ object.image }} width="400" height="410"/>
             <a class="btn btn-outline-secondary" href="{% url 'catalog:category_products' object.pk %}">Просмотр</a>
-            <a class="btn btn-outline-secondary" href="{% url 'catalog:update_product' object.pk %}">Редактирование</a>
-            <a class="btn btn-outline-secondary" href="{% url 'catalog:delete_product' object.pk %}">Удаление</a>
         </div>
 
         <div class="bg-light shadow-sm mx-auto"
