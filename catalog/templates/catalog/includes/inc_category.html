@@ -5,8 +5,9 @@
         <div class="my-3 py-3">
             <h2 class="display-5">{{ object }}</h2>
             <img src={{ object.image | mymedia }} width="400" height="410">
-            <p class="lead">{{ object.description |  slice:1000 }}</p>
-            <a class="btn btn-outline-secondary" href="{% url 'catalog:update_product' object.pk %}">Редактировать</a>
+            <p class="lead">{{ object.description | slice:1000 }}</p>
+            <a class="btn btn-outline-secondary" href="{% url 'catalog:update_product' object.pk %}">Редактирование</a>
+            <a class="btn btn-outline-secondary" href="{% url 'catalog:delete_product' object.pk %}">Удаление</a>
         </div>
 
     </div>
