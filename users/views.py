@@ -10,6 +10,7 @@ from users.models import User
 
 from config.settings import EMAIL_HOST_USER
 
+
 class RegisterView(CreateView):
     model = User
     form_class = UserRegisterForm
