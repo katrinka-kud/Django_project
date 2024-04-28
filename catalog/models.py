@@ -1,5 +1,7 @@
 from django.db import models
 
+from config import settings
+
 NULLABLE = {'null': True, 'blank': True}
 
 
@@ -24,6 +26,8 @@ class Product(models.Model):
     price = models.IntegerField(verbose_name='Цена')
     created_at = models.DateField(verbose_name='Дата создания', auto_now_add=True)
     updated_at = models.DateField(verbose_name='Дата последнего изменения', auto_now=True)
+
+    owner = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.SET_NULL, verbose_name='Владелец', **NULLABLE)
 
     def __str__(self):
         return self.name

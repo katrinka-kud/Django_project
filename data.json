@@ -1,0 +1,1235 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2024-03-29T11:24:12.009Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Кроссовки (1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2024-03-29T11:24:47.268Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2024-03-29T11:25:24.191Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2024-03-29T11:27:08.223Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Ботинки женские демисезонные (2)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2024-03-29T11:29:16.035Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "3",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2024-03-29T11:30:43.571Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Туфли женские (3)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2024-03-29T13:09:37.369Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Кеды женские летние (4)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2024-03-29T13:15:50.362Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Ботинки женские демисезонные (2)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2024-03-29T13:15:50.364Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Кеды женские летние (4)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2024-03-29T13:15:50.365Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Кроссовки (1)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2024-03-29T13:15:50.366Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Туфли женские (3)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2024-03-29T13:16:01.770Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2024-03-29T13:16:01.772Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "2",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2024-03-29T13:16:01.773Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "3",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2024-03-29T13:16:01.774Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "4",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2024-03-29T14:05:06.220Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Ботинки женские демисезонные (2)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2024-03-29T14:05:06.223Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Кеды женские летние (4)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2024-03-29T14:05:06.224Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Кроссовки (1)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2024-03-29T14:05:06.224Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Туфли женские (3)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2024-03-29T14:05:17.102Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2024-03-29T14:05:17.105Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "2",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2024-03-29T14:05:17.106Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "3",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2024-03-29T14:05:17.107Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "4",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2024-03-31T10:24:38.689Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Кроссовки",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2024-03-31T10:25:00.499Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Ботинки",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2024-03-31T10:25:10.743Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "Туфли",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2024-03-31T10:25:20.565Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "Кеды",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2024-03-31T10:27:13.768Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Кроссовки женские демисезонные (Кроссовки)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2024-03-31T10:27:59.072Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Ботинки женские демисезонные (Ботинки)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2024-03-31T10:28:32.674Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Туфли женские (Туфли)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2024-03-31T10:29:26.934Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "8",
+      "object_repr": "Кеды женские летние (Кеды)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2024-04-15T16:34:49.489Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "Рекомендую к покупке Полностью оправдали мое ожидание, цена = качество!",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2024-04-16T10:16:27.545Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "Кроссовки бесплатно",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2024-04-16T10:30:32.832Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "11",
+      "object_repr": "Кроссовки бесплатно",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2024-04-17T11:10:27.469Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "Тест 1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2024-04-17T11:11:02.907Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "Тест2 2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add category",
+      "content_type": 7,
+      "codename": "add_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change category",
+      "content_type": 7,
+      "codename": "change_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete category",
+      "content_type": 7,
+      "codename": "delete_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view category",
+      "content_type": 7,
+      "codename": "view_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add Товар",
+      "content_type": 8,
+      "codename": "add_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change Товар",
+      "content_type": 8,
+      "codename": "change_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete Товар",
+      "content_type": 8,
+      "codename": "delete_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view Товар",
+      "content_type": 8,
+      "codename": "view_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add Пост",
+      "content_type": 9,
+      "codename": "add_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change Пост",
+      "content_type": 9,
+      "codename": "change_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete Пост",
+      "content_type": 9,
+      "codename": "delete_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view Пост",
+      "content_type": 9,
+      "codename": "view_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add Отзыв",
+      "content_type": 10,
+      "codename": "add_reviews"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change Отзыв",
+      "content_type": 10,
+      "codename": "change_reviews"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete Отзыв",
+      "content_type": 10,
+      "codename": "delete_reviews"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view Отзыв",
+      "content_type": 10,
+      "codename": "view_reviews"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add Отзыв",
+      "content_type": 11,
+      "codename": "add_review"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change Отзыв",
+      "content_type": 11,
+      "codename": "change_review"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete Отзыв",
+      "content_type": 11,
+      "codename": "delete_review"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view Отзыв",
+      "content_type": 11,
+      "codename": "view_review"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add Версия",
+      "content_type": 12,
+      "codename": "add_version"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change Версия",
+      "content_type": 12,
+      "codename": "change_version"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete Версия",
+      "content_type": 12,
+      "codename": "delete_version"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view Версия",
+      "content_type": 12,
+      "codename": "view_version"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$iK8L8w5N7xjC4HKsimMfV7$CCewBAMZ2S1sBz9zVvs72l+0po9tIK2swl+nRT1uZvA=",
+      "last_login": "2024-04-15T16:19:54.734Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-03-29T10:51:41.951Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "catalog",
+      "model": "category"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "catalog",
+      "model": "product"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "blog",
+      "model": "blog"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "catalog",
+      "model": "reviews"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "catalog",
+      "model": "review"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+      "app_label": "catalog",
+      "model": "version"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "7zeu5pyp4v4iab4wlqwvvce7up66rc8d",
+    "fields": {
+      "session_data": ".eJxVjEsOwjAMBe-SNYqcpHIcluw5QxXHDi2gRupnhbg7VOoCtm9m3sv0eVuHflt07kcxZ-PM6XfjXB467UDuebo1W9q0ziPbXbEHXey1iT4vh_t3MORl-NYkVDxWTswIibukwFV8ciEKdV4BIQASIYZYBdnFlBVFhDKBeDXvD-IfN-k:1rtQMw:bXxD_CcXbW_3O5eHJ4RmQcRzCXTzuuMpmc7rA2gwkgs",
+      "expire_date": "2024-04-21T11:07:26.065Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "fizhoo9cl9t5drmau1oz1aq4j73epcju",
+    "fields": {
+      "session_data": ".eJxVjEsOwjAMBe-SNYqcpHIcluw5QxXHDi2gRupnhbg7VOoCtm9m3sv0eVuHflt07kcxZ-PM6XfjXB467UDuebo1W9q0ziPbXbEHXey1iT4vh_t3MORl-NYkVDxWTswIibukwFV8ciEKdV4BIQASIYZYBdnFlBVFhDKBeDXvD-IfN-k:1rwP3i:JKLX0oYiWjHEecCD4zPrLkGXuAm22D-KF0EXPFb_M2g",
+      "expire_date": "2024-04-29T16:19:54.736Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "nd4doisk4wmzy53g0fuzhup60rbxlhco",
+    "fields": {
+      "session_data": ".eJxVjEsOwjAMBe-SNYqcpHIcluw5QxXHDi2gRupnhbg7VOoCtm9m3sv0eVuHflt07kcxZ-PM6XfjXB467UDuebo1W9q0ziPbXbEHXey1iT4vh_t3MORl-NYkVDxWTswIibukwFV8ciEKdV4BIQASIYZYBdnFlBVFhDKBeDXvD-IfN-k:1rq9s4:3WJCY8QHjmUXt20cOuXVpcThhHo3cma20lFxfPJ8B10",
+      "expire_date": "2024-04-12T10:54:04.286Z"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 5,
+    "fields": {
+      "name": "Кроссовки",
+      "description": "Кроссовки"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 6,
+    "fields": {
+      "name": "Ботинки",
+      "description": "Ботинки"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 7,
+    "fields": {
+      "name": "Туфли",
+      "description": "Туфли"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 8,
+    "fields": {
+      "name": "Кеды",
+      "description": "Кеды"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 5,
+    "fields": {
+      "name": "Кроссовки женские демисезонные",
+      "description": "Дизайнеры представили в новой коллекции демисезонные кроссовки на трендовой фигурной подошве. Пара актуального оттенка нуги выполнена из натуральной гладкой кожи с сетчатыми вставками для оптимального микроклимата и вентиляции. Нежная внутренняя отделка из комбинации натуральной кожи и текстиля создает комфортные ощущения при соприкосновении. Утолщенную подошву снабдили глубоким рисунком протектора, который обеспечивает надежное сцепление с поверхностью.",
+      "image": "products/EN00150CN_06_nougat_24L_1_oXvaA2W.jpg",
+      "category": 5,
+      "price": 18990,
+      "created_at": "2024-03-31",
+      "updated_at": "2024-03-31"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 6,
+    "fields": {
+      "name": "Ботинки женские демисезонные",
+      "description": "Ботинки на шнуровке на базе классических челси занимают одну из первых позиций в модном виш-листе благодаря их уникальной вариативности. Пару выполнили из натуральной матовой кожи дымчатого цвета с мягкой подкладкой из комбинации кожи и текстиля. Для функциональности модели голенище сделали эластичным за счет широких вставок из мягкой искусственной кожи. Шнуровка в тон органично дополняет дизайн и подчеркивает сдержанный стиль пары. Увеличенная широкая подошва из облегченной резины имеет ребристый рисунок, который обладает противоскользящим свойствами.",
+      "image": "products/EN06406CN_24_fog_24L_1_TeIvO08.jpg",
+      "category": 6,
+      "price": 22000,
+      "created_at": "2024-03-31",
+      "updated_at": "2024-04-17"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 7,
+    "fields": {
+      "name": "Туфли женские",
+      "description": "Безоговорочная классика — туфли-лодочки из натуральной гладкой кожи в белом оттенке. Комбинация формы, цвета и материала, которая освежит ваши деловые и вечерние образы. Незаменимая модель и хорошая модная инвестиция в гардероб. Мягкая стелька и нескользящая подошва позаботятся о том, чтобы ваши выходы были не только красивыми, но и комфортными.",
+      "image": "products/EN00682CN_01_blanc_24L_1_6justM4.jpg",
+      "category": 7,
+      "price": 15000,
+      "created_at": "2024-03-31",
+      "updated_at": "2024-03-31"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 8,
+    "fields": {
+      "name": "Кеды женские летние",
+      "description": "Летние кеды в лаконичном универсальном дизайне. Модель выполнена из гладкой натуральной кожи в базовом белом оттенке и дополнена контрастными бежевыми деталями. За комфорт в паре отвечает мягкая кожаная стелька, удобная подошва и перфорация, обеспечивающая циркуляцию воздуха.",
+      "image": "products/EN00009TR_03_latte_white_24L_1_cD04uIb.jpg",
+      "category": 8,
+      "price": 21990,
+      "created_at": "2024-03-31",
+      "updated_at": "2024-03-31"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 9,
+    "fields": {
+      "name": "Туфли женские с принтом",
+      "description": "Леопардовый принт не собирается покидать ряды актуальных трендов, поэтому дизайнеры EKONIKA PREMIUM в этом сезоне воссоздали его в оригинальной серой расцветке. Буйство активного анималистичного принта уравновешивает классический силуэт туфель-лодочек, выполненных из натурального велюра. Выверенная колодка, нескользящая подошва, подкладка из натуральной кожи — элементы, благодаря которым туфли становятся не только эффектным дополнением гардероба, но и доставляют максимальный комфорт в течение всего дня.",
+      "image": "products/PM00193CN_02_leo.grey_24L_1_hvwlY09.jpg",
+      "category": 7,
+      "price": 21990,
+      "created_at": "2024-04-05",
+      "updated_at": "2024-04-06"
+    }
+  },
+  {
+    "model": "catalog.version",
+    "pk": 1,
+    "fields": {
+      "product": 6,
+      "number": 1,
+      "name": "Тест",
+      "current_version": true
+    }
+  },
+  {
+    "model": "catalog.version",
+    "pk": 2,
+    "fields": {
+      "product": 6,
+      "number": 2,
+      "name": "Тест2",
+      "current_version": false
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 1,
+    "fields": {
+      "title": "Тест редактированный!!!",
+      "slug": "test-redaktirovannyij",
+      "body": "Тест редактированный!!!",
+      "image": "",
+      "created_at": "2024-04-05",
+      "is_published": false,
+      "views_count": 4
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 2,
+    "fields": {
+      "title": "Новый тест",
+      "slug": "novyij-test",
+      "body": "Новый тест",
+      "image": "",
+      "created_at": "2024-04-05",
+      "is_published": false,
+      "views_count": 9
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 4,
+    "fields": {
+      "title": "Тест тест",
+      "slug": "test-test",
+      "body": "Тест тест",
+      "image": "",
+      "created_at": "2024-04-05",
+      "is_published": false,
+      "views_count": 5
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 5,
+    "fields": {
+      "title": "Тренды 2024",
+      "slug": "trendyi-2024",
+      "body": "Тренды",
+      "image": "blog/BOSONOZHKI_300kh400_3_9qng9FW.jpg",
+      "created_at": "2024-04-05",
+      "is_published": true,
+      "views_count": 9
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 6,
+    "fields": {
+      "title": "Новый тест",
+      "slug": "novyij-test",
+      "body": "Новый тест",
+      "image": "",
+      "created_at": "2024-04-05",
+      "is_published": false,
+      "views_count": 0
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 7,
+    "fields": {
+      "title": "Новые тренды",
+      "slug": "novyie-trendyi",
+      "body": "Новые тренды",
+      "image": "blog/trendy_300kh400_5_eEtiATs.jpg",
+      "created_at": "2024-04-05",
+      "is_published": true,
+      "views_count": 4
+    }
+  }
+]

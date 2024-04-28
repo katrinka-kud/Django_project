@@ -1,3 +1,4 @@
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.forms import inlineformset_factory
 from django.urls import reverse_lazy
 from django.views.generic import ListView, CreateView, UpdateView, DeleteView, TemplateView
@@ -7,7 +8,6 @@ from catalog.models import Product, Category, Version
 
 
 class CategoryListView(ListView):
-    """Выводит все категории на главной странице"""
     model = Category
     extra_context = {
         'title': 'Интернет-магазин женской обуви',
@@ -16,7 +16,6 @@ class CategoryListView(ListView):
 
 
 class ProductListView(ListView):
-    """Показывает все доступные модели"""
     model = Product
     extra_context = {
         'title': 'Стильно и удобно',
@@ -25,7 +24,6 @@ class ProductListView(ListView):
 
 
 class CategoryProductView(TemplateView):
-    """Показывает модели, соответствующей категории"""
     template_name = 'catalog/products.html'
 
     def get_context_data(self, **kwargs):
@@ -37,10 +35,17 @@ class CategoryProductView(TemplateView):
         return context_data
 
 
-class ProductCreateView(CreateView):
+class ProductCreateView(CreateView, LoginRequiredMixin):
     model = Product
     form_class = ProductForm
     success_url = reverse_lazy('catalog:home')
+
+    def form_valid(self, form):
+        product = form.save()
+        user = self.request.user
+        product.owner = user
+        product.save()
+        return super().form_valid(form)
 
 
 class ProductUpdateView(UpdateView):
