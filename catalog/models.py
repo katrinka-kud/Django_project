@@ -26,8 +26,8 @@ class Product(models.Model):
     price = models.IntegerField(verbose_name='Цена')
     created_at = models.DateField(verbose_name='Дата создания', auto_now_add=True)
     updated_at = models.DateField(verbose_name='Дата последнего изменения', auto_now=True)
-
     owner = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.SET_NULL, verbose_name='Владелец', **NULLABLE)
+    is_published = models.BooleanField(default=False, verbose_name='Опубликовано')
 
     def __str__(self):
         return self.name
@@ -36,6 +36,11 @@ class Product(models.Model):
         verbose_name = 'Товар'
         verbose_name_plural = 'Товары'
         ordering = ('name',)
+        permissions = [
+            ('can_edit_is_published', 'Может менять публикацию'),
+            ('can_edit_description', 'Может менять описание'),
+            ('can_edit_category', 'Может менять категорию'),
+        ]
 
 
 class Version(models.Model):
