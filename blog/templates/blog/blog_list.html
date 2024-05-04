@@ -11,7 +11,7 @@
             <h2 class="display-5">{{ object.title }}</h2>
             <img src={{ object.image | mymedia }} width="300" height="400">
             <p class="lead">{{ object.body | slice:100 }}</p>
-            <!--                <a class="btn btn-outline-secondary" href="">Просмотр</a>-->
+            {% if perms.catalog.can_edit_is_published and perms.catalog.can_edit_description and perms.catalog.can_edit_category or user == object.owner %}
             <a class="btn btn-outline-secondary"
                href="{% url 'blog:view' object.pk %}"
                role="button">Просмотр</a>
@@ -21,11 +21,14 @@
             <a class="btn btn-outline-secondary"
                href="{% url 'blog:delete' object.pk %}"
                role="button">Удалить</a>
+            {% endif %}
         </div>
+        {% if perms.catalog.can_edit_is_published and perms.catalog.can_edit_description and perms.catalog.can_edit_category or user == object.owner %}
         {% if object.is_published %}
         <a class="btn btn-outline-secondary" href="{% url 'blog:status_published' object.pk %}">Убрать</a>
         {% else %}
         <a class="btn btn-outline-secondary" href="{% url 'blog:status_published' object.pk %}">Добавить</a>
+        {% endif %}
         {% endif %}
     </div>
     {% endfor %}
