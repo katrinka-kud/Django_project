@@ -7,6 +7,7 @@
             <img src={{ object.image | mymedia }} width="400" height="410">
             <p class="lead">{{ object.description | slice:1000 }}</p>
             {% if perms.catalog.can_edit_is_published and perms.catalog.can_edit_description and perms.catalog.can_edit_category or user == object.owner %}
+            <a class="btn btn-outline-secondary" href="{% url 'catalog:detail_product' object.pk %}">Просмотр</a>
             <a class="btn btn-outline-secondary" href="{% url 'catalog:update_product' object.pk %}">Редактирование</a>
             <a class="btn btn-outline-secondary" href="{% url 'catalog:delete_product' object.pk %}">Удаление</a>
             {% endif %}
